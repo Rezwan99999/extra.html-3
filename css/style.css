@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*===========================common class===================================*/
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    max-width: 1645px;
+    width: 100%;
+}
+/* =========================================start navbar=================================*/
+.navbar{
+    background-color: #000000 !important;
+    --bs-navbar-padding-y:0 !important;
+}
+/* .nav-brand a{
+    max-width: 169px;
+    min-height: 169px;
+} */
+.nav-item .nav-link{
+    color: #ffffffff !important;
+    --bs-navbar-nav-link-padding-x:0;
+    --bs-nav-link-padding-y:0;
+    margin: 38px 30px;
+}
+.nav-user a{
+    padding: 0px 22px;
+}
+.nav-user a:nth-child(2){
+    padding-right: 0px;
+}
+/* -----------------------------start banner------------------------------------*/
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+        url("../img/banner.png") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 2rem;
+}
